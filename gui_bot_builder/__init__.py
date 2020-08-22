@@ -2,5 +2,6 @@
 from .src.clicker import clicker
 from .src.cord_tracker import cord_tracker
 from .src.delay import delay
+from .src.one_shot import one_shot
 from .src.match_cleaner import match_cleaner
 from .src.screen_matcher import screen_matcher
