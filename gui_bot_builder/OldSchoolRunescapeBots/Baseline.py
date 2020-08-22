@@ -1,4 +1,4 @@
-from ScreenMatcher import ScreenMatcher
+from gui_bot_builder.ScreenMatcher import ScreenMatcher
 from MatchCleaner import MatchCleaner
 from Clicker import Clicker
 import pyautogui
@@ -16,7 +16,7 @@ class Baseline(object):
 
 	def setPassword(self, password):
 		self.password = password;
-		
+
 	def login(self):
 		sm = ScreenMatcher("templates/login/existing.png");
 		mc = MatchCleaner(sm.getPositions());

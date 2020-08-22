@@ -1,5 +1,5 @@
 from Baseline import Baseline
-from ScreenMatcher import ScreenMatcher
+from gui_bot_builder.ScreenMatcher import ScreenMatcher
 from MatchCleaner import MatchCleaner
 from Clicker import Clicker
 
@@ -24,7 +24,7 @@ while True:
 	mc.setRawPos(sm.getPositions())
 	cl.LC(mc.getCenters()[0], 0.5);
 
-	
+
 	if mc_string == None:
 		sm.setTemplate("templates/items/bow_string.png");
 		mc_string = MatchCleaner(sm.getPositions());
@@ -50,15 +50,3 @@ while True:
 	mc.setRawPos(sm.getPositions());
 	for i in range(5):
 		cl.LC(mc.getCenters()[0], 3);
-
-
-	
-
-	
-
-	
-
-	
-	
-	
-	
