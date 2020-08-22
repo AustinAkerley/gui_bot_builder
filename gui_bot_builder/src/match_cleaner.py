@@ -1,7 +1,7 @@
 from gui_bot_builder.src.screen_matcher import screen_matcher
 
-class MatchCleaner(object):
-	"""docstring for MatchCleaner"""
+class match_cleaner(object):
+	"""docstring for match_cleaner"""
 	raw_positions = ([(0,0)], [(0,0)])
 	raw_centers = []
 	cleaned_positions = ([], [])
